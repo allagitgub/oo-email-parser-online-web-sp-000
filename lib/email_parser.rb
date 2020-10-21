@@ -8,11 +8,7 @@ class EmailAddressParser
 
 
   def initialize(addresses)
-    puts addresses
     @email_addresses = addresses
-
-    puts email_addresses
-    puts parse
   end
 
   def parse
