@@ -21,7 +21,7 @@ class EmailAddressParser
     #else
     #  email_addresses.split(",")
     #end
-    puts email_addresses
+    puts email_addresses + "parse"
     email_addresses.split(/[, ]/)
   end
 
