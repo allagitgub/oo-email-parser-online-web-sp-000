@@ -19,4 +19,8 @@ class EmailAddressParser
     #end
     email_addresses.split(/[, ]/)
   end
+
+  parser = EmailAddressParser.new("avi@test.com, arel@test.com")
+
+  puts parser.email_addresses
 end
