@@ -12,10 +12,11 @@ class EmailAddressParser
   end
 
   def parse(email_addresses)
-    if(email_addresses.index(" ") != nil)
-      email_addresses.split(" ")
-    else
-      email_addresses.split(",")
-    end
+    #if(email_addresses.index(" ") != nil)
+    #  email_addresses.split(" ")
+    #else
+    #  email_addresses.split(",")
+    #end
+    email_addresses.split(/?:^|[, ]/)
   end
 end
