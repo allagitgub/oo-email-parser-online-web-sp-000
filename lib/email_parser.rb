@@ -17,6 +17,6 @@ class EmailAddressParser
     #else
     #  email_addresses.split(",")
     #end
-    email_addresses.split(/?:^[, ]/)
+    email_addresses.split(/[, ]/)
   end
 end
