@@ -12,6 +12,7 @@ class EmailAddressParser
     email_addresses = addresses
 
     puts email_addresses
+    puts parse
   end
 
   def parse
