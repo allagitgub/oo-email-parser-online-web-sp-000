@@ -12,7 +12,7 @@ class EmailAddressParser
   end
 
   def parse
-    email_addresses.split(/\s*(\s|,|=>)\s*/)
+    email_addresses.split(/,\\s*/)
   end
 
   parser = EmailAddressParser.new("avi@test.com, arel@test.com")
