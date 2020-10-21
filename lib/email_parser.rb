@@ -10,6 +10,8 @@ class EmailAddressParser
   def initialize(addresses)
     puts addresses
     email_addresses = addresses
+
+    puts email_addresses
   end
 
   def parse
