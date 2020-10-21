@@ -12,7 +12,6 @@ class EmailAddressParser
   end
 
   def parse
-    puts email_addresses + "parse"
     email_addresses.split(/[, ]/)
   end
 
